@@ -1,0 +1,114 @@
+½* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #1a1e21;
+	font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+ul, ol {
+	margin: 2px 10px 2px 10px;
+	padding: 0;
+	list-style-position: inside;
+}
+
+li {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.reset{
+	border: 1px solid white;
+	margin: 10px;
+	padding: 15px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	display: block;
+	box-shadow: 0px 0px 14px -7px #4c4cdf;
+	background-image: linear-gradient(45deg, #5132c0 0%, #fb61a6 51%, #fb61a6 100%);
+}
+
+.forfra{
+	border: 1px solid white;
+	margin: 10px;
+	padding: 15px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	display: block;
+	box-shadow: 0px 0px 14px -7px #d93701;
+	background-image: linear-gradient(45deg, #5132c0 0%, #333333 51%, #333333  100%);
+}
+
+#modal{
+	padding: 1em;
+	max-width: 50ch;
+	& > * {
+		margin: 0 0 0.5rem 0;
+	}
+	border: 0;
+	box-shadow: 0 0 1em rgb(0 0 0 / .3);
+}
+
+.modal-h{
+	color: black;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+}
+
+#modal::backdrop{
+	background: rgb(0 0 0 / .3);
+}
+
+.no-button{
+	font-weight: bold;
+	background-color: #db0000;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.yes-button{
+	font-weight: bold;
+	background-color: #37db00;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.newgame{
+	margin-top: 260px;
+}
+
+.form-label {
+	color: white;
+}
+
+.head-text {
+	color: white;
+}
